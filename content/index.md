@@ -12,10 +12,13 @@ orientation: horizontal
 :hero-background
 
 #title
-Ship Beautiful [Documentation]{.text-primary}.
+Curiosity-Driven [Engineering]{.text-primary}, Crafted With Intention.
 
 #description
-Build professional documentation with Nuxt UI's powerful components, enhanced typography, and seamless Nuxt Content integration. The same system trusted by the entire [Nuxt ecosystem](https://nuxt.com).
+**Craft. Build. Refine. — Where ideas become systems.**  
+Explorations in software, systems, and the craft of building — from identity and backend architecture to DevOps, distributed systems, and real-world engineering challenges.  
+A space at the intersection of craft and technology, sharing lessons, insights, and hands-on experiments.  
+**Let’s learn, explore, and build something remarkable together.**
 
 #links
   :::u-button
@@ -27,17 +30,6 @@ Build professional documentation with Nuxt UI's powerful components, enhanced ty
   Get started
   :::
 
-  :::u-button
-  ---
-  icon: i-simple-icons-github
-  color: neutral
-  variant: outline
-  size: xl
-  to: https://github.com/nuxt-ui-templates/docs
-  target: _blank
-  ---
-  Use this template
-  :::
 
 #default
   :::prose-pre

@@ -1849,20 +1849,20 @@ packages:
     peerDependencies:
       vue: '>=3.5.18'
 
-  '@unocss/core@66.5.4':
-    resolution: {integrity: sha512-UDS2CRgyQCEFH+5kStDyJd7OFtgkIUZYn5Ahr5z7v3jc/pEfeOJ0mxsNAr+FgMS/xb17vy4sVFvx3jj/FwMZ1A==}
+  '@unocss/core@66.5.7':
+    resolution: {integrity: sha512-5ZEjmqRHlwRVSfoVQvy1QKOIfEB9MYRHmYTlwbEvNReFE3Nr0jMk08mo+F80jlb0eoTFjELEUJe9EiEowQeKhQ==}
 
-  '@unocss/extractor-arbitrary-variants@66.5.4':
-    resolution: {integrity: sha512-JsgITF11Z2WdXzF8eO2/qkcFIff/dEEc9C2eKYOSUv5pe+RMZxXHoAw4x+D4n0UrGAbHpoUVaJ8E7kG0ayTbGw==}
+  '@unocss/extractor-arbitrary-variants@66.5.7':
+    resolution: {integrity: sha512-yuRSCWl6KU+lhpuPwvq54lp3bYAxthWlJNLXTbqVwqhY0LV9ElSf4fJcrMlijWCNA5+GlDYeaPPX+YQ0rGn0gg==}
 
-  '@unocss/preset-mini@66.5.4':
-    resolution: {integrity: sha512-KaBGsw3+Pi5ZTsp5u0OrUUUXFVltHin02cYhv3A4b9392Kej5R3y7zIf1VjiQ3ZXR4KZWfv0CQj0LBqIqAJ5WA==}
+  '@unocss/preset-mini@66.5.7':
+    resolution: {integrity: sha512-rDAOv0xfoPSqIHHilie1g3zNEvDLXrmz4LI7Wb8T0P6TGCZMI1rn10S8odHi8PeQUER3cpOAgSeNgdUnxZ7y2g==}
 
-  '@unocss/preset-wind3@66.5.4':
-    resolution: {integrity: sha512-cqQGg9E2476YVpnX3sgO/jEoA4cKCA5rEl2NgemoAJpKAgdM68JPB+Tve4LlSLssxRQZ7ZYNO6hOfW8R2gVVuw==}
+  '@unocss/preset-wind3@66.5.7':
+    resolution: {integrity: sha512-ua0INcibg2OJ+oq4lML8xJuyphDyWfia1p9i/cL1AJ8GrTRW/w8Lp9rPu6nhEPaRzVVOWifoUBO+4lK+gIQrBQ==}
 
-  '@unocss/rule-utils@66.5.4':
-    resolution: {integrity: sha512-LFzLuXQfZKI/qJBrsqkaVKlw0ECU8Xw7m+MaKIKyFH/hqggzkvNG0PyWU2HnPNzz1dIiVBn+Epfpz8pzi+MLFA==}
+  '@unocss/rule-utils@66.5.7':
+    resolution: {integrity: sha512-239fcZXoeShgOWMD73FCyitJSyAj6XOOIocLVYXBIO9QWGdeyli2tlOayFnXCQB/vqhBQv5Cq1EGTWJKuVBKRA==}
     engines: {node: '>=14'}
 
   '@unrs/resolver-binding-android-arm-eabi@1.11.1':
@@ -7782,27 +7782,27 @@ snapshots:
       unhead: 2.0.19
       vue: 3.5.23(typescript@5.9.3)
 
-  '@unocss/core@66.5.4': {}
+  '@unocss/core@66.5.7': {}
 
-  '@unocss/extractor-arbitrary-variants@66.5.4':
+  '@unocss/extractor-arbitrary-variants@66.5.7':
     dependencies:
-      '@unocss/core': 66.5.4
+      '@unocss/core': 66.5.7
 
-  '@unocss/preset-mini@66.5.4':
+  '@unocss/preset-mini@66.5.7':
     dependencies:
-      '@unocss/core': 66.5.4
-      '@unocss/extractor-arbitrary-variants': 66.5.4
-      '@unocss/rule-utils': 66.5.4
+      '@unocss/core': 66.5.7
+      '@unocss/extractor-arbitrary-variants': 66.5.7
+      '@unocss/rule-utils': 66.5.7
 
-  '@unocss/preset-wind3@66.5.4':
+  '@unocss/preset-wind3@66.5.7':
     dependencies:
-      '@unocss/core': 66.5.4
-      '@unocss/preset-mini': 66.5.4
-      '@unocss/rule-utils': 66.5.4
+      '@unocss/core': 66.5.7
+      '@unocss/preset-mini': 66.5.7
+      '@unocss/rule-utils': 66.5.7
 
-  '@unocss/rule-utils@66.5.4':
+  '@unocss/rule-utils@66.5.7':
     dependencies:
-      '@unocss/core': 66.5.4
+      '@unocss/core': 66.5.7
       magic-string: 0.30.21
 
   '@unrs/resolver-binding-android-arm-eabi@1.11.1':
@@ -10436,8 +10436,8 @@ snapshots:
       '@resvg/resvg-js': 2.6.2
       '@resvg/resvg-wasm': 2.6.2
       '@unhead/vue': 2.0.19(vue@3.5.23(typescript@5.9.3))
-      '@unocss/core': 66.5.4
-      '@unocss/preset-wind3': 66.5.4
+      '@unocss/core': 66.5.7
+      '@unocss/preset-wind3': 66.5.7
       chrome-launcher: 1.2.1
       consola: 3.4.2
       defu: 6.1.4
