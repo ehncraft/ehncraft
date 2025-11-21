@@ -27,40 +27,12 @@ A space at the intersection of craft and technology, sharing lessons, insights, 
   size: xl
   trailing-icon: i-lucide-arrow-right
   ---
-  Get started
+  Peek Inside
   :::
 
 
 #default
-  :::prose-pre
-  ---
-  code: |
-    export default defineNuxtConfig({
-      modules: [
-        '@nuxt/ui',
-        '@nuxt/content',
-        'nuxt-og-image',
-        'nuxt-llms'
-      ],
-
-      css: ['~/assets/css/main.css']
-    })
-  filename: nuxt.config.ts
-  ---
-
-  ```ts [nuxt.config.ts]
-  export default defineNuxtConfig({
-    modules: [
-      '@nuxt/ui',
-      '@nuxt/content',
-      'nuxt-og-image',
-      'nuxt-llms'
-    ],
-
-    css: ['~/assets/css/main.css']
-  })
-  ```
-  :::
+  
 ::
 
 ::u-page-section{class="dark:bg-neutral-950"}

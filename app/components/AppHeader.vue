@@ -2,7 +2,6 @@
 import type { ContentNavigationItem } from '@nuxt/content'
 
 const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
-
 const { header } = useAppConfig()
 </script>
 
@@ -28,7 +27,6 @@ const { header } = useAppConfig()
         :alt="header?.logo?.alt"
         class="h-6 w-auto shrink-0"
       />
-
       <span v-else-if="header?.title">
         {{ header.title }}
       </span>
@@ -38,10 +36,12 @@ const { header } = useAppConfig()
       v-else
       #left
     >
-      <NuxtLink :to="header?.to || '/'">
-        <AppLogo class="w-auto h-6 shrink-0" />
+      <NuxtLink
+        :to="header?.to || '/'"
+        class="flex items-center gap-3"
+      >
+        <AppLogo class="w-auto h-8 md:h-10 lg:h-12 shrink-0" />
       </NuxtLink>
-
       <TemplateMenu />
     </template>
 
@@ -50,9 +50,7 @@ const { header } = useAppConfig()
         v-if="header?.search"
         class="lg:hidden"
       />
-
       <UColorModeButton v-if="header?.colorMode" />
-
       <template v-if="header?.links">
         <UButton
           v-for="(link, index) of header.links"
