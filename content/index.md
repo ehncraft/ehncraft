@@ -23,7 +23,7 @@ A space at the intersection of craft and technology, sharing lessons, insights, 
 #links
   :::u-button
   ---
-  to: /getting-started
+  to: /aspnet-core
   size: xl
   trailing-icon: i-lucide-arrow-right
   ---
