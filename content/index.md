@@ -238,7 +238,7 @@ Enhanced with Nuxt Content
   ---
   links:
     - label: Start building
-      to: '/getting-started'
+      to: '/aspnet-core'
       trailingIcon: i-lucide-arrow-right
     - label: View on GitHub
       to: 'https://github.com/nuxt-ui-templates/docs'

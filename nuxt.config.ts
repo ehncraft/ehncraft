@@ -62,17 +62,17 @@ export default defineNuxtConfig({
     },
     sections: [
       {
-        title: 'Getting Started',
+        title: 'ASP.NET Core',
         contentCollection: 'docs',
         contentFilters: [
-          { field: 'path', operator: 'LIKE', value: '/getting-started%' }
+          { field: 'path', operator: 'LIKE', value: '/aspnet-core%' }
         ]
       },
       {
-        title: 'Essentials',
+        title: 'Azure',
         contentCollection: 'docs',
         contentFilters: [
-          { field: 'path', operator: 'LIKE', value: '/essentials%' }
+          { field: 'path', operator: 'LIKE', value: '/azure%' }
         ]
       }
     ]
