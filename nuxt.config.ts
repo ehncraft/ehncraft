@@ -12,6 +12,17 @@ export default defineNuxtConfig({
   devtools: {
     enabled: true
   },
+  app: {
+    head: {
+      title: 'ehncraft',
+      htmlAttrs: {
+        lang: 'en'
+      },
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/ehncraft.svg' }
+      ]
+    }
+  },
 
   css: ['~/assets/css/main.css'],
 
@@ -28,7 +39,6 @@ export default defineNuxtConfig({
     port: 3010
   },
   compatibilityDate: '2024-07-11',
-
   nitro: {
     prerender: {
       routes: [
@@ -53,8 +63,8 @@ export default defineNuxtConfig({
   },
 
   llms: {
-    domain: 'https://docs-template.nuxt.dev/',
-    title: 'Nuxt Docs Template',
+    domain: 'https://ehncraft.dev/',
+    title: 'ehn craft',
     description: 'A template for building documentation with Nuxt UI and Nuxt Content.',
     full: {
       title: 'Nuxt Docs Template - Full Documentation',

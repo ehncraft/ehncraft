@@ -11,7 +11,7 @@ useHead({
     { name: 'viewport', content: 'width=device-width, initial-scale=1' }
   ],
   link: [
-    { rel: 'icon', href: '/favicon.ico' }
+    { rel: 'icon', href: '/ehncraft.svg' }
   ],
   htmlAttrs: {
     lang: 'en'
@@ -19,8 +19,8 @@ useHead({
 })
 
 useSeoMeta({
-  titleTemplate: `%s - ${seo?.siteName}`,
-  ogSiteName: seo?.siteName,
+  titleTemplate: title => `${title} - ${String(seo?.siteName)}`,
+  ogSiteName: String(seo?.siteName || ''),
   twitterCard: 'summary_large_image'
 })
 
