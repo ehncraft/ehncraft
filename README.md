@@ -10,3 +10,7 @@ I'm always open to interesting conversations and collaboration opportunities!
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ehncraft)
 
 </div>
+
+
+
+https://git-scm.com/book/en/v2
